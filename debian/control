@@ -1,16 +1,15 @@
-Source: xentaos-keyring-2018-12
+Source: xentaos-keyring
 Section: misc
 Priority: important
 Maintainer: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
 Build-Depends: debhelper (>=9)
 Standards-Version: 3.9.6
-Homepage: http://ww.xentaos.org/
-#Vcs-Git: git://anonscm.debian.org/collab-maint/xentaos-keyring-2018-12.git
-#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/xentaos-keyring-2018-12.git
+Homepage: https://github.com/xentaos/xentaos-keyring
+Vcs-Browser: https://github.com/xentaos/xentaos-keyring.git
 
-Package: xentaos-keyring
+Package: xentaos-keyring-2018-12
 Architecture: all
 Depends: gnupg (>= 1.0.6-4)
-Description: GnuPG key of the Xenta OS LTS Repository
- The Xenta OS repository digitally signs its Release files. 
- This package contains the repository keys used for that.
+Description: Paket Kunci GnuPG untuk Mengakses Repository.
+ Repositori Xenta OS secara digital menandai file Release-nya.
+ Paket ini berisi kunci repositori yang digunakan untuk itu.
