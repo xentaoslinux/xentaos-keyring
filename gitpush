@@ -13,7 +13,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>
 
 package=xentaos-keyring
-version="xentaos-keyring"
+version="xentaos-keyring (2019.12.24)"
 figlet $package
 echo " Set Remote... "
 git remote set-url origin git@github.com:xentaoslinux/$package.git
