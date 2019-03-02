@@ -3,11 +3,11 @@ Section: misc
 Priority: important
 Maintainer: Dindin Hernawan (Xenta OS) <dindin_hernawan@yahoo.com>
 Build-Depends: debhelper (>=9)
-Standards-Version: 3.9.6
+Standards-Version: 3.9.7
 Homepage: https://github.com/xentaoslinux/xentaos-keyring
 Vcs-Browser: https://github.com/xentaoslinux/xentaos-keyring.git
 
-Package: xentaos-keyring-2019-12
+Package: xentaos-keyring
 Architecture: all
 Depends: gnupg (>= 1.0.6-4)
 Description: Paket Kunci GnuPG untuk Mengakses Repository.
