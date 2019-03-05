@@ -10,6 +10,7 @@ Vcs-Browser: https://github.com/xentaoslinux/xentaos-keyring.git
 Package: xentaos-keyring
 Architecture: all
 Depends: gnupg (>= 1.0.6-4)
+Provides : xentaos-keyring-2019-12
 Description: Paket Kunci GnuPG untuk Mengakses Repository.
  Repositori Xenta OS secara digital menandai file Release-nya.
  Paket ini berisi kunci repositori yang digunakan untuk itu.
